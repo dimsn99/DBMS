@@ -22,7 +22,7 @@ DML is the short name for Data Manipulation Language which deals with data manip
 - LOCK TABLE: concurrency Control
 
 ### Introduction of 3-Tier Architecture in DBMS
-![image](https://user-images.githubusercontent.com/105867034/182029967-bca7d855-660e-4a87-89e1-4766319585bb.png)
+<img src="https://user-images.githubusercontent.com/105867034/182029967-bca7d855-660e-4a87-89e1-4766319585bb.png" width="600px" height="400px"></img>
 
 - Physical Level: At the physical level, the information about the location of database objects in the data store is kept. Various users of DBMS are unaware of the locations of these objects.In simple terms,physical level of a database describes how the data is being stored in secondary storage devices like disks and tapes and also gives insights on additional storage details.
 - Conceptual Level: At conceptual level, data is represented in the form of various database tables. For Example, STUDENT database may contain STUDENT and COURSE tables which will be visible to users but users are unaware of their storage.Also referred as logical schema,it describes what kind of data is to be stored in the database.
